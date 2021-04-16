@@ -1,0 +1,3 @@
+{% unless template.name != "index" %}
+    {% render 'breadcrumbs' %}
+{% endunless %}
